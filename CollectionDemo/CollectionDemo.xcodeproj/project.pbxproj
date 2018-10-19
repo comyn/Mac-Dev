@@ -7,24 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0658D20A21796F0400DB5387 /* SBPopoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658D20921796F0400DB5387 /* SBPopoViewController.swift */; };
-		0664A17D217966EF0090D742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0664A17C217966EF0090D742 /* AppDelegate.swift */; };
-		0664A181217966F00090D742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0664A180217966F00090D742 /* Assets.xcassets */; };
-		0664A184217966F00090D742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0664A182217966F00090D742 /* Main.storyboard */; };
+		0658D2182179793500DB5387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658D2172179793500DB5387 /* AppDelegate.swift */; };
+		0658D21A2179793500DB5387 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658D2192179793500DB5387 /* ViewController.swift */; };
+		0658D21C2179793600DB5387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0658D21B2179793600DB5387 /* Assets.xcassets */; };
+		0658D21F2179793600DB5387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0658D21D2179793600DB5387 /* Main.storyboard */; };
+		0658D22D21797FAD00DB5387 /* CustomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658D22B21797FAD00DB5387 /* CustomItem.swift */; };
+		0658D22E21797FAD00DB5387 /* CustomItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0658D22C21797FAD00DB5387 /* CustomItem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0658D20921796F0400DB5387 /* SBPopoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBPopoViewController.swift; sourceTree = "<group>"; };
-		0664A179217966EF0090D742 /* StatusBarDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusBarDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0664A17C217966EF0090D742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0664A180217966F00090D742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0664A183217966F00090D742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0664A185217966F00090D742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0664A186217966F00090D742 /* StatusBarDemoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StatusBarDemoApp.entitlements; sourceTree = "<group>"; };
+		0658D2142179793500DB5387 /* CollectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0658D2172179793500DB5387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0658D2192179793500DB5387 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0658D21B2179793600DB5387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0658D21E2179793600DB5387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0658D2202179793600DB5387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0658D2212179793600DB5387 /* CollectionDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CollectionDemo.entitlements; sourceTree = "<group>"; };
+		0658D22B21797FAD00DB5387 /* CustomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomItem.swift; sourceTree = "<group>"; };
+		0658D22C21797FAD00DB5387 /* CustomItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0664A176217966EF0090D742 /* Frameworks */ = {
+		0658D2112179793500DB5387 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,71 +38,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0664A170217966EF0090D742 = {
+		0658D20B2179793500DB5387 = {
 			isa = PBXGroup;
 			children = (
-				0664A17B217966EF0090D742 /* StatusBarDemoApp */,
-				0664A17A217966EF0090D742 /* Products */,
+				0658D2162179793500DB5387 /* CollectionDemo */,
+				0658D2152179793500DB5387 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0664A17A217966EF0090D742 /* Products */ = {
+		0658D2152179793500DB5387 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0664A179217966EF0090D742 /* StatusBarDemoApp.app */,
+				0658D2142179793500DB5387 /* CollectionDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0664A17B217966EF0090D742 /* StatusBarDemoApp */ = {
+		0658D2162179793500DB5387 /* CollectionDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0664A17C217966EF0090D742 /* AppDelegate.swift */,
-				0658D20921796F0400DB5387 /* SBPopoViewController.swift */,
-				0664A180217966F00090D742 /* Assets.xcassets */,
-				0664A182217966F00090D742 /* Main.storyboard */,
-				0664A185217966F00090D742 /* Info.plist */,
-				0664A186217966F00090D742 /* StatusBarDemoApp.entitlements */,
+				0658D2172179793500DB5387 /* AppDelegate.swift */,
+				0658D2192179793500DB5387 /* ViewController.swift */,
+				0658D22B21797FAD00DB5387 /* CustomItem.swift */,
+				0658D22C21797FAD00DB5387 /* CustomItem.xib */,
+				0658D21B2179793600DB5387 /* Assets.xcassets */,
+				0658D21D2179793600DB5387 /* Main.storyboard */,
+				0658D2202179793600DB5387 /* Info.plist */,
+				0658D2212179793600DB5387 /* CollectionDemo.entitlements */,
 			);
-			path = StatusBarDemoApp;
+			path = CollectionDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0664A178217966EF0090D742 /* StatusBarDemoApp */ = {
+		0658D2132179793500DB5387 /* CollectionDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0664A189217966F00090D742 /* Build configuration list for PBXNativeTarget "StatusBarDemoApp" */;
+			buildConfigurationList = 0658D2242179793600DB5387 /* Build configuration list for PBXNativeTarget "CollectionDemo" */;
 			buildPhases = (
-				0664A175217966EF0090D742 /* Sources */,
-				0664A176217966EF0090D742 /* Frameworks */,
-				0664A177217966EF0090D742 /* Resources */,
+				0658D2102179793500DB5387 /* Sources */,
+				0658D2112179793500DB5387 /* Frameworks */,
+				0658D2122179793500DB5387 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = StatusBarDemoApp;
-			productName = StatusBarDemoApp;
-			productReference = 0664A179217966EF0090D742 /* StatusBarDemoApp.app */;
+			name = CollectionDemo;
+			productName = CollectionDemo;
+			productReference = 0658D2142179793500DB5387 /* CollectionDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0664A171217966EF0090D742 /* Project object */ = {
+		0658D20C2179793500DB5387 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = comyn;
 				TargetAttributes = {
-					0664A178217966EF0090D742 = {
+					0658D2132179793500DB5387 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = 0664A174217966EF0090D742 /* Build configuration list for PBXProject "StatusBarDemoApp" */;
+			buildConfigurationList = 0658D20F2179793500DB5387 /* Build configuration list for PBXProject "CollectionDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -106,45 +112,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 0664A170217966EF0090D742;
-			productRefGroup = 0664A17A217966EF0090D742 /* Products */;
+			mainGroup = 0658D20B2179793500DB5387;
+			productRefGroup = 0658D2152179793500DB5387 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0664A178217966EF0090D742 /* StatusBarDemoApp */,
+				0658D2132179793500DB5387 /* CollectionDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0664A177217966EF0090D742 /* Resources */ = {
+		0658D2122179793500DB5387 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0664A181217966F00090D742 /* Assets.xcassets in Resources */,
-				0664A184217966F00090D742 /* Main.storyboard in Resources */,
+				0658D21C2179793600DB5387 /* Assets.xcassets in Resources */,
+				0658D22E21797FAD00DB5387 /* CustomItem.xib in Resources */,
+				0658D21F2179793600DB5387 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0664A175217966EF0090D742 /* Sources */ = {
+		0658D2102179793500DB5387 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0658D20A21796F0400DB5387 /* SBPopoViewController.swift in Sources */,
-				0664A17D217966EF0090D742 /* AppDelegate.swift in Sources */,
+				0658D21A2179793500DB5387 /* ViewController.swift in Sources */,
+				0658D2182179793500DB5387 /* AppDelegate.swift in Sources */,
+				0658D22D21797FAD00DB5387 /* CustomItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0664A182217966F00090D742 /* Main.storyboard */ = {
+		0658D21D2179793600DB5387 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0664A183217966F00090D742 /* Base */,
+				0658D21E2179793600DB5387 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -152,7 +160,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0664A187217966F00090D742 /* Debug */ = {
+		0658D2222179793600DB5387 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		0664A188217966F00090D742 /* Release */ = {
+		0658D2232179793600DB5387 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,39 +275,37 @@
 			};
 			name = Release;
 		};
-		0664A18A217966F00090D742 /* Debug */ = {
+		0658D2252179793600DB5387 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = StatusBarDemoApp/StatusBarDemoApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CollectionDemo/CollectionDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = StatusBarDemoApp/Info.plist;
+				INFOPLIST_FILE = CollectionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.comyn.StatusBarDemoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comyn.CollectionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
-		0664A18B217966F00090D742 /* Release */ = {
+		0658D2262179793600DB5387 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = StatusBarDemoApp/StatusBarDemoApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CollectionDemo/CollectionDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = StatusBarDemoApp/Info.plist;
+				INFOPLIST_FILE = CollectionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.comyn.StatusBarDemoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comyn.CollectionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -308,25 +314,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0664A174217966EF0090D742 /* Build configuration list for PBXProject "StatusBarDemoApp" */ = {
+		0658D20F2179793500DB5387 /* Build configuration list for PBXProject "CollectionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0664A187217966F00090D742 /* Debug */,
-				0664A188217966F00090D742 /* Release */,
+				0658D2222179793600DB5387 /* Debug */,
+				0658D2232179793600DB5387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0664A189217966F00090D742 /* Build configuration list for PBXNativeTarget "StatusBarDemoApp" */ = {
+		0658D2242179793600DB5387 /* Build configuration list for PBXNativeTarget "CollectionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0664A18A217966F00090D742 /* Debug */,
-				0664A18B217966F00090D742 /* Release */,
+				0658D2252179793600DB5387 /* Debug */,
+				0658D2262179793600DB5387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0664A171217966EF0090D742 /* Project object */;
+	rootObject = 0658D20C2179793500DB5387 /* Project object */;
 }
